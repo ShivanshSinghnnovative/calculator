@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bigbox {
+  border: 1px solid rgb(194, 191, 191);
+  height: 419px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  box-shadow: 4px 4px 4px 4px lightgray;
+}
+input {
+  height: 55px;
+  width: 447px;
+  font-size: 17px;
+  margin: 19px 20px 10px 20px;
+  border: 1px solid lightgray;
+}
+.container {
+  grid-gap: 10px;
+  margin-left: 20px;
+}
+.x {
+  background-color: rgb(230, 217, 217);
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  gap: 17px;
+  margin-top: 14px;
+  margin-bottom: 26px;
+}
+.sign {
+  /* border: 2px solid rgb(200, 198, 198); */
+  width: 100px;
+  height: 40px;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  /* text-align: center; */
+  /* background-color: lightgray; */
+  align-items: center;
+}
+.valuecontainer {
+  width: 449px;
+  margin-top: 10px;
+  display: flex;
+  gap: 13px;
+}
+.inputvalue {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 24px 18px;
+  width: 325px;
+}
+.seven {
+  height: 50px;
+  width: 100px;
+  font-size: 28px;
+}
+.deba {
+  /* border: 2px solid rgb(206, 202, 202); */
+  height: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+.equal {
+  border: none;
+  height: 241px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4d90fe;
+  font-size: 28px;
+}
+.equa {
+  height: 238px;
+  margin-top: -5px;
+  margin-left: 14px;
+}
+button {
+  cursor: pointer;
+  border: 1px solid grey;
+}
+
+@media screen and (min-width: 120px) and (max-width: 570px) {
+  .bigbox {
+    height: 380px;
+    margin-top: 37px;
+    margin-left: 43px;
+    width: 389px;
+  }
+  input {
+    height: 43px;
+    width: 337px;
+    font-size: 15px;
+  }
+  .icon {
+    gap: 19px;
+    margin-top: 9px;
+    margin-bottom: 20px;
+  }
+  .seven {
+    height: 41px;
+    width: 70px;
+    font-size: 21px;
+  }
+  .sign {
+    height: auto;
+    width: auto;
+  }
+  .deba {
+    width: auto;
+    height: auto;
+  }
+  .inputvalue {
+    grid-gap: 15px 18px;
+    width: 245px;
+  }
+  .equal {
+    height: 208px;
+    width: 70px;
+  }
+  .equa {
+    margin-top: 0;
+    margin-left: 10px;
+    height: auto;
+  }
+}
